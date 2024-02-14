@@ -1,0 +1,39 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* general */
+:root {
+    --color-primary: #000000;
+    --color-scondary: #222222;
+    --color-section-bg: #4A4A4A;
+    --color-contrast: #4BC800;
+    --color-text: #FFFFFF;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+#app{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+}
