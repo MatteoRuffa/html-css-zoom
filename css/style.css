@@ -129,6 +129,7 @@ main {
 .btn-end {
     background-color: var(--color-section-bg);
     padding: 20px;
+    width: 100%;
     height: 80px;
     text-align: center;
     vertical-align: center;
