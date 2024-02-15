@@ -87,6 +87,7 @@ main {
 
 .user {
     width: calc((100% / 7) - 10px  );
+    height: calc(100% / 5 );;
     position: relative;
 }
 
@@ -99,10 +100,6 @@ main {
     bottom: 0;
     left: 0;
 }
-
-/* .user, img{
-    min-width: 100px;
-} */
 
 /* toolbar */
 #toolbar {
@@ -132,7 +129,6 @@ main {
 .btn-end {
     background-color: var(--color-section-bg);
     padding: 20px;
-
     height: 80px;
     text-align: center;
     vertical-align: center;
